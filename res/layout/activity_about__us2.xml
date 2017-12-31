@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        >
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="IETE-ISF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4.81"
+                android:text="@string/the_institution_of_electronics_and_telecommunication_engineers_iete_is_india_s_leading_recognized_professional_society_devoted_to_the_advancement_of_science_and_technology_of_electronics_telecommunication_it_the_institution_provides_leadership_in_scientific_and_technical_areas_of_direct_importance_to_the_national_development_and_economy_government_of_india_has_recognized_iete_as_a_scientific_and_industrial_research_organization_siro_and_also_notified_as_an_educational_institution_of_national_eminence_the_objectives_of_iete_focus_on_advancing_electro_technology_the_iete_conducts_and_sponsors_technical_meetings_conferences_symposia_and_exhibitions_all_over_india_publishes_technical_journals_and_provides_continuing_education_as_well_as_career_advancement_opportunities_to_its_members"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_below="@+id/textView8"
+                android:layout_marginTop="72dp"></TextView>
+
+        <Button
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tv"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/tv"
+            android:layout_marginBottom="21dp"
+            android:text="Click here to visit our page" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
